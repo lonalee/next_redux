@@ -5,6 +5,9 @@ import { createWrapper } from 'next-redux-wrapper'
 import store from '../store/store'
 
 const MyApp = ({ Component, pageProps }) => {
+
+  // const {store} = store()
+  console.log(store, '****')
   return <Provider store={store}>
     <Component {...pageProps}></Component>
   </Provider>

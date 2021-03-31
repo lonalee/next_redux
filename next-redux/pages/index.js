@@ -20,9 +20,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        {posts && posts.data && posts.data.map((item,i) => <h3>
+        <a href="/testPage">TEST PAGE</a>
+        {/* {posts && posts.data && posts.data.map((item,i) => <h3>
           {item.title}
-        </h3>)}
+        </h3>)} */}
       </div>
     </div>
   )
